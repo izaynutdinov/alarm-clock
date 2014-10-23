@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.iskandar.alarmclock" >
+
+    <!-- to be activated service on boot is completed -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/alarm_clock_logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayActivity"
+            android:label="@string/title_activity_play"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="net.iskandar.alarmclock.PLAY_ALARM" />
+                <action android:name="net.iskandar.alarmclock.TEST_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="net.iskandar.ALARM_FIRED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BootReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".NewAlarmActivity"
+            android:label="@string/title_activity_new_alarm" >
+        </activity>
+    </application>
+
+</manifest>

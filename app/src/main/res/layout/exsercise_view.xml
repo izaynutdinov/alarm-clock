@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <!--<ImageView
+        android:id="@+id/iconView"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:src="@drawable/icon_error"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5px"
+        android:layout_marginRight="5px"
+    /> -->
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="160px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5px"
+        android:layout_marginRight="10px"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textSize="12pt" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15px"
+        android:layout_toLeftOf="@id/editText"
+        android:text="1 + 55 = "
+        android:gravity="right"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:text="56"
+        android:textSize="12pt"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text=""
+        android:textColor="#0000FF"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@id/editText"
+        android:layout_alignRight="@id/editText"
+        android:layout_marginBottom="20px"
+        android:gravity="left"
+        android:paddingTop="10px"
+        android:paddingBottom="10px"/>
+
+<!--    <FrameLayout
+        android:id="@+id/dividerTop"
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@android:color/black"
+        android:layout_alignBottom="@id/editText"
+        android:layout_alignLeft="@id/textView"
+        android:layout_marginLeft="-50px"/>
+    <FrameLayout
+        android:id="@+id/dividerBottom"
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@android:color/black"
+        android:layout_alignBaseline="@+id/message"
+        android:layout_alignLeft="@id/textView" /> -->
+
+
+</RelativeLayout>
+

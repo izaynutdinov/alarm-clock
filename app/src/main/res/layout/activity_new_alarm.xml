@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.iskandar.alarmclock.NewAlarmActivity">
+
+    <net.iskandar.alarmclock.EditAlarmForm
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </net.iskandar.alarmclock.EditAlarmForm>
+
+</RelativeLayout>

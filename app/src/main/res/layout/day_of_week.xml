@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="0pt">
+    <ToggleButton
+        android:id="@+id/tbMonday"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:text="Mn"
+        android:textOn="Mn"
+        android:textOff="Mn"
+        android:layout_margin="0pt" />
+    <ToggleButton
+        android:id="@+id/tbTuesday"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:text="Tu"
+        android:textOn="Tu"
+        android:textOff="Tu" />
+    <ToggleButton
+        android:id="@+id/tbWednesday"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:text="We"
+        android:textOn="We"
+        android:textOff="We" />
+    <ToggleButton
+        android:id="@+id/tbThursday"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:text="Th"
+        android:textOn="Th"
+        android:textOff="Th" />
+    <ToggleButton
+        android:id="@+id/tbFriday"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:text="Fr"
+        android:textOn="Fr"
+        android:textOff="Fr" />
+    <ToggleButton
+        android:id="@+id/tbSaturday"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:text="St"
+        android:textOn="St"
+        android:textOff="St" />
+    <ToggleButton
+        android:id="@+id/tbSunday"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:text="Su"
+        android:textOn="Su"
+        android:textOff="Su" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/iskandar/AndroidStudioProjects/AlarmClock/app/build/intermediates/pre-dexed/debug/classes-c9430d6fcd94648688341e6c690b12a4810cab7f.jar"
+        jar="/home/iskandar/AndroidStudioProjects/AlarmClock/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/home/iskandar/AndroidStudioProjects/AlarmClock/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-3a7d12b4d7abb8c37242bcc93a86cb96ca1d86c9.jar"
+        jar="/home/iskandar/lib/adt-bundle-linux-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/home/iskandar/AndroidStudioProjects/AlarmClock/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-acdef57c62c169ce2db32eca546b1f4f714286a1.jar"
+        jar="/home/iskandar/AndroidStudioProjects/AlarmClock/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/home/iskandar/AndroidStudioProjects/AlarmClock/app/build/intermediates/pre-dexed/debug/gson-2.2.4-79ea145592c81619dba8e8c1ce67489df536d5e1.jar"
+        jar="/home/iskandar/AndroidStudioProjects/AlarmClock/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+
+</pre-dex-items>

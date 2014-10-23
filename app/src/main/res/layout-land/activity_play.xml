@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="net.iskandar.alarmclock.PlayActivity"
+    android:background="#5191c9">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/time_picker_back"
+        android:padding="20px"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Please solve problems to stop alarm"/>
+
+        <net.iskandar.alarmclock.components.ExcerciseView
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20px">
+
+        </net.iskandar.alarmclock.components.ExcerciseView>
+        <net.iskandar.alarmclock.components.ExcerciseView
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        </net.iskandar.alarmclock.components.ExcerciseView>
+        <net.iskandar.alarmclock.components.ExcerciseView
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        </net.iskandar.alarmclock.components.ExcerciseView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="net.iskandar.alarmclock.BlankFragment"
+        android:background="#5191c9">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/linearLayout"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Alarm will ring at:"
+                android:textSize="10pt"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20px"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/nextAlarm"
+                android:textSize="10pt"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20px"
+                android:gravity="center_horizontal"/>
+
+            <TimePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timePicker"
+                android:layout_gravity="center_horizontal|top"
+                android:alpha="100"
+                android:background="@drawable/time_picker_back"
+                android:layout_marginBottom="20px"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Alarm"
+                android:id="@+id/setAlarmButton"
+                android:layout_gravity="center"
+                android:alpha="100"
+                android:background="@drawable/button_back"
+                android:layout_marginBottom="20px"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test Play"
+                android:id="@+id/playButton"
+                android:layout_gravity="center"
+                android:alpha="100"
+                android:background="@drawable/button_back"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
